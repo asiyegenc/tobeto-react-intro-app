@@ -1,0 +1,51 @@
+/* Başlık stilini merkeze hizalar, alt boşluk bırak ve metin rengini belirler */
+.todo-title {
+    text-align: center;  /* Metni merkeze hizalar */
+    margin-bottom: 20px;  /* Alt boşluk bırakır */
+    color: #333;  /* Metin rengi */
+}
+
+/* Görev girişi için sağda boşluk bırakır */
+.task {
+    margin-right: 10px;  /* Sağda boşluk bırakır */
+}
+
+/* Liste stilini madde işaretlerini gizler */
+.list {
+    list-style-type: none;  /* Madde işaretlerini gizler */
+    padding: 0; 
+}
+
+/* Tek bir görev bloğu oluştur, elemanları düzenler, arkaplan rengi, padding, dış boşluk ve kenar yumuşatma ekler */
+.todo {
+    display: flex;  /* Flexbox kullanarak elemanları düzenler */
+    justify-content: space-between;  /* Elemanları eşit uzaklıkta konumlandır */
+    align-items: center;  /* Elemanları dikeyde hizalar */
+    background-color: #f0f0f0;  /* Arkaplan rengi */
+    padding: 10px;  /* Padding */
+    margin: 5px 0;  /* Dış boşluk */
+    border-radius: 5px;  /* Kenar yumuşatma */
+}
+
+/* Görev girişi input için genişlik artışı ve sağda boşluk ekle */
+.todo input {
+    flex: 1;  /* Genişliği artan oranda paylaşır */
+    margin-right: 10px;  /* Sağda boşluk bırakır */
+}
+
+/* Silme düğmesi için arka plan rengi, metin rengi, kenarlık olmama, padding, imleç türü ve kenar yumuşatma belirle */
+.todo button {
+    background-color: #ff6961;  /* Arkaplan rengi */
+    color: #fff;  /* Metin rengi */
+    border: none;  /* Kenarlık olmadan */
+    padding: 5px 10px;  /* Padding */
+    cursor: pointer;  /* İmleç türü */
+    border-radius: 5px;  /* Kenar yumuşatma */
+}
+
+/* İsteğe bağlı: Görevleri tarihe göre gruplandırmak için başlık stilini tanımlar */
+h2 {
+    margin-top: 20px;  /* Üst boşluk bırakır */
+    border-bottom: 1px solid #ccc;  /* Alt çizgi */
+    padding-bottom: 5px;
+}
